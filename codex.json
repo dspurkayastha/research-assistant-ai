@@ -9,6 +9,7 @@
     {"name":"write_paper","command":"python3 tools/write_paper.py","description":"Draft scientific manuscript and export to MD/PDF/TeX."},
     {"name":"write_code","command":"python3 tools/write_code.py","description":"Generate custom Python code from natural-language prompts."},
     {"name":"create_apa_table","command":"python3 tools/create_apa_table.py","description":"Generate an APA-style table from a CSV dataset."},
-    {"name":"add_citations","command":"python3 tools/add_citations.py","description":"Insert inline citations in specified style into a document."}
+    {"name":"add_citations","command":"python3 tools/add_citations.py","description":"Insert inline citations in specified style into a document."},
+    {"name": "generate_bibtex","command": "python3 tools/generate_bibtex.py","description": "Fetch and assemble a .bib file from DOIs or PMIDs (via CrossRef)."}
   ]
 }

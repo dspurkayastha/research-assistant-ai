@@ -10,3 +10,4 @@ biopython
 openai
 requests
 pypandoc
+requests
