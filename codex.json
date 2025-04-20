@@ -1,0 +1,14 @@
+{
+  "tools": [
+    {"name":"ingest_pdf","command":"python3 tools/ingest_pdf.py","description":"Extract text from PDF files."},
+    {"name":"ingest_excel","command":"python3 tools/ingest_excel.py","description":"Convert multi-sheet Excel to normalized CSVs."},
+    {"name":"analyze_advanced","command":"python3 tools/analyze_advanced.py","description":"Descriptive stats, correlation, regression, survival analysis."},
+    {"name":"validate_models","command":"python3 tools/validate_models.py","description":"K-fold CV and diagnostic plots for regression models."},
+    {"name":"generate_visuals","command":"python3 tools/generate_visuals.py","description":"Generate boxplot, violinplot, pairplot, ROC."},
+    {"name":"search_literature","command":"python3 tools/search_literature.py","description":"Search literature across PubMed, CrossRef, Semantic Scholar."},
+    {"name":"write_paper","command":"python3 tools/write_paper.py","description":"Draft scientific manuscript and export to MD/PDF/TeX."},
+    {"name":"write_code","command":"python3 tools/write_code.py","description":"Generate custom Python code from natural-language prompts."},
+    {"name":"create_apa_table","command":"python3 tools/create_apa_table.py","description":"Generate an APA-style table from a CSV dataset."},
+    {"name":"add_citations","command":"python3 tools/add_citations.py","description":"Insert inline citations in specified style into a document."}
+  ]
+}

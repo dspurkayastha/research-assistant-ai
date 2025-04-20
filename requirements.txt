@@ -1,0 +1,12 @@
+pandas
+statsmodels
+lifelines
+seaborn
+matplotlib
+scikit-learn
+PyMuPDF
+openpyxl
+biopython
+openai
+requests
+pypandoc
